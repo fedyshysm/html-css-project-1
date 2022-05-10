@@ -18,12 +18,15 @@
             .block {
                 width: 900px;
                 position: absolute;
-                top: 0;
+                top: 20px;
                 right: 0;
                 bottom: 0;
                 left: 0;
                 margin: auto;
             }    
+            #img-div {
+                text-align: center;
+            }
             h1 {
                 color: rgb(96, 66, 42);
                 font-family: "Raleway", sans-serif;
@@ -31,6 +34,8 @@
                 text-align: center;
             }
             hr {
+                border: none;
+                background-color: rgb(71, 46, 26);
                 color: rgb(71, 46, 26);
                 height: 2px;
             }
@@ -39,33 +44,39 @@
                 font-family: "Raleway", sans-serif;
                 font-size: 15px;
                 text-align: center;
+                font-weight: 400;
             }
             #image {
-                float: left;
                 margin: 30px 30px 20px 0px;
                 height: 400px;
             }
             h2 {
-                color: #275;
+                color: rgb(138, 102, 73);
                 font-family: "Raleway", sans-serif;
-                font-size: 18px;
+                font-size: 19px;
                 text-align: center;
             }
             p {
-                color: #240;
+                color: rgb(99, 68, 44);
                 font-family: "Raleway", sans-serif;
-                font-size: 15px;
+                font-size: 18x;
                 text-align: justify;
+                font-weight: 300;
+            }
+            b {
+                font-weight: 500;
             }
             ul {
-                color: #240;
+                color: rgb(99, 68, 44);
                 font-family: "Raleway", sans-serif;
-                font-size: 15px;
+                font-size: 18x;
+                font-weight: 300;
             }
             #quote {
                 display: block;
                 margin-left: 15px;
-                font-size: 16px;
+                font-size: 14px;
+                font-weight: 100;
             }
         </style>
     </head>
@@ -73,11 +84,16 @@
         <div id="main">
             <div class="parent" id="main">
                 <div class="block">
-                    <h1>Solomiya Krushelnytska</h1>
+                    <header>
+                        <h1>Solomiya Krushelnytska</h1>
                     <p id="description">one of the brightest opera stars of the first half of the 20th century</p>
+                    <br>
                     <hr>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Solomiya_Krushelnytska.jpg" 
+                    <div id="img-div">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Solomiya_Krushelnytska.jpg" 
                     alt="Photo of Solomiya Krushelnytska 1" id="image">
+                    </div>
+                    </header>
                     <br>
                     <h2>Here is a time line of Mrs. Krushelnytska's life</h4>
                     <p>Solomiya was born on <b>September 23, 1872</b> in the family of a 
@@ -131,7 +147,7 @@
                     <p id="quote"><i><b>Among thousands of reviews of Solomia Krushelnytska, we want to single out the one which was published 
                     in French newspaper in 1902: "An unparalleled artist is endowed with a ringing voice, whose powerful
                     sounds are both tender and tragic. Definitely Krushelnytska belongs to the greatest singers of our epoch".</p>      
-                    <p id="quote">— Nadiia Trush, Honoured worker of culture of Ukraine</i></b></p><br>   
+                    <p id="quote">— Nadiia Trush, Honoured worker of culture of Ukraine</i></b></p><br><br>
                 </div>     
             </div>
         </div>
